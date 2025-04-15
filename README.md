@@ -9,3 +9,5 @@ This is a user-friendly web application designed to streamline your machine lear
 🤖 Predict outcomes using popular ML algorithms
 
 Whether you're a beginner exploring ML or a pro looking for a quick tool, this app helps you go from data to predictions with ease — all in one place.
+
+You can access the live version of the app here: [Machine Learning Web App](https://ml-web-app.streamlit.app/)
