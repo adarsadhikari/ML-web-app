@@ -26,7 +26,7 @@ if upload_file is not None:
     st.sidebar.header("Model Configuration")
     test_size = st.sidebar.slider("Test Size (Fraction of Data)", 0.1, 0.5, 0.2, 0.05)
     target = st.selectbox("Select your target variable", data.columns.tolist())
-    colmn = st.multiselect("Select columns to visualize", data.columns.tolist())
+    colmn = st.multiselect("Select features for prediction", data.columns.tolist())
 
     # Model selection
     st.sidebar.header("Select Algorithms")
@@ -105,7 +105,7 @@ if upload_file is not None:
     # User input for prediction
     st.write("### Make a Prediction")
     input_data = []
-    st.write("#### Select Feature and values for prediction")
+    st.write("#### Select values for prediction")
     for feature in colmn:
         min_value = float(X[feature].min())
         max_value = float(X[feature].max())
