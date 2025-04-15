@@ -5,7 +5,7 @@ st.set_page_config(
     page_icon="👋",
 )
 
-st.write("# Welcome to EDA web app 👋")
+st.write("# Welcome to ML web app 👋")
 st.markdown(
     """
     This intuitive web application is designed to streamline your machine learning workflow. 
