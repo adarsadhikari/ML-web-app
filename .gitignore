@@ -1,0 +1,5 @@
+venv/
+.env
+eda/
+app.py
+app1.py
