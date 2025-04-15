@@ -112,7 +112,6 @@ if upload_file is not None:
         value = st.slider(f"{feature}", min_value, max_value, float(X[feature].mean()))
         input_data.append(value)
     input_df = pd.DataFrame([input_data], columns=colmn)
-    st.write(input_df)
 
     if st.button("Predict"):
         if use_random_forest:
